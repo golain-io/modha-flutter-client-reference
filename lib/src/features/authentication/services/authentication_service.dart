@@ -9,7 +9,7 @@ class AuthenticationService {
   late String zitadelClientId;
 
   final String callbackUrlScheme = 'com.golain.ledconfig.ledconfig';
-  final baseUri = Uri.base;
+  // final baseUri = Uri.base;
   late OidcUserManager userManager;
 
   AuthenticationService() {
